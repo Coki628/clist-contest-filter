@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name            CLIST Contenst Filter
 // @name:ja         CLIST Contenst Filter
-// @namespace       https://github.com/Coki628/xxx
-// @version         1.0.0
+// @namespace       https://github.com/Coki628/clist-contest-filter
+// @version         1.0.1
 // @description     You can choose and filter any favorite contests at homepage on CLIST
 // @description:ja  CLISTのTOPページで自分の好きなコンテストサイトだけ表示できます。
 // @author          Coki628

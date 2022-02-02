@@ -2,7 +2,7 @@
 // @name            CLIST Contest Filter
 // @name:ja         CLIST Contest Filter
 // @namespace       https://github.com/Coki628/clist-contest-filter
-// @version         1.0.2
+// @version         1.0.4
 // @description     You can choose and filter any favorite contests at homepage on CLIST
 // @description:ja  CLISTのTOPページで自分の好きなコンテストサイトだけ表示できます。
 // @author          Coki628
@@ -21,7 +21,6 @@
 
         load() {
             const config_json = GM_getValue("ClistContestFilterConfig", null);
-            // console.log(config_json);
             if (config_json !== null) {
                 try {
                     const data = JSON.parse(config_json);
@@ -36,7 +35,7 @@
             const data = { favorites: [...this.favorites], };
             const config_json = JSON.stringify(data);
             GM_setValue("ClistContestFilterConfig", config_json);
-            console.info("AtCoderLanguageButtons: saved");
+            // console.info("ClistContestFilter: saved");
         },
 
         has(site) {
@@ -60,7 +59,7 @@
     });
     // 領域とサイト毎のチェックボックス生成
     $('#contests').prepend(`
-        <div id="custom-filter-box" style="padding-left: 10px; padding-right: 10px;">
+        <div id="custom-filter-box" style="padding: 10px 10px 5px;">
             <div></div>
             <div></div>
         </div>

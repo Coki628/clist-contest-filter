@@ -2,12 +2,12 @@
 // @name            CLIST Contest Filter
 // @name:ja         CLIST Contest Filter
 // @namespace       https://github.com/Coki628/clist-contest-filter
-// @version         1.0.4
+// @version         1.0.5
 // @description     You can choose and filter any favorite contests at homepage on CLIST
 // @description:ja  CLISTのTOPページで自分の好きなコンテストサイトだけ表示できます。
 // @author          Coki628
 // @license         MIT
-// @include         https://clist.by/
+// @match           https://clist.by/
 // @grant           GM_getValue
 // @grant           GM_setValue
 // ==/UserScript==
